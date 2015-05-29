@@ -22,7 +22,6 @@ Query notlarımı bir araya getirerek JQuery öğrenmek  ya da takıldıkları n
  - elementlerden belirli class a sahip olanları seç (`p` lerden `asya`
    class ına sahip olanlar): `$("p.asya")` 
  - elementten hemen sonraki elementi seç (`h1` den hemen sonraki `p`): `$("h1 + p")` 
- - elementten sonra gelen elementleri seç (`baslik` class ından sonra gelen `p`
  - herhangi bir class a sahip olanları seç:  `$("p[class]")` 
  - belirtilen kelimeyle başlayanları seç (id si "`kon`" ile başlayanlar): `$("[id^=kon]")`
  - `p` ler içinde id si `kon` ile başlayan ve `lang` özelliği `tr-` içerenleri seç: `$("p[id^=kon][lang*=tr-]")`
